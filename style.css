@@ -102,8 +102,12 @@ p {
     height: 80px;
     border-radius: 50%;
     cursor: pointer;
+    transition: 0.5s;
 }
 
+.botoes:hover {
+    transform: translateY(-20px);
+}
 
 .botoes:active {
     opacity: 0.6;
